@@ -30,6 +30,7 @@ if ($result->num_rows > 0) {
     $aksi = "$editLink | $hapusLink";
     
     // Menampilkan data dan kolom aksi
+    //tets aja
     echo "<tr><td>$nama_kategori</td><td>$aksi</td></tr>";
   }
   echo '</table>';
